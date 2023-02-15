@@ -1,0 +1,263 @@
+html{
+    font-size: 100%;
+    font-family: Helvetica, arial, sans-serif;
+}
+body{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+.top-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url('https://gmedia.playstation.com/is/image/SIEPDC/playstation-stars-hero-page-banner-desktop-01-en-02sep22?$2400px$');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.top-container .opacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, black, transparent);
+    opacity: 0.6;
+
+
+}
+#mini-container {
+    position: absolute;
+    width: 525px;
+    top: 130px;
+    left: 120px;
+}
+.top-container img {
+    width: 400px;
+    margin-bottom: 10px;
+}
+.top-container p {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.smallText{
+    margin-top: 25px;
+    font-size: 10px;
+
+}
+.spans{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    padding: 10px;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 2rem;
+    margin: 0.25rem;
+    font-weight: 600;
+    line-height: 1.25em;
+    cursor: pointer;
+    display: block;
+}
+span:hover{
+    border: 2px solid #0070CC;
+    ;
+
+}
+#spanUno{
+    color: black;
+    background-color: white;
+
+}
+#spanDue{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+#spanDue:hover{
+    border: 2px solid white;
+
+}
+.spanTre {
+    background-color: #0070CC;
+    color: white;
+    text-align: center;
+    letter-spacing: .025rem;
+    line-height: 1.25em;
+    font-weight: 700;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.grey{
+    background-color: rgb(245, 247, 250);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 55%;
+    margin-top: 50px;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.box2 div{
+    width: 40%;
+    text-align: initial;
+    margin-left: 80px;
+}
+.box3{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    text-align: inherit;
+    align-items: center;
+    margin-bottom: 40px;
+    
+
+}
+
+.box4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-items: center;
+
+}
+.box5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
+    justify-items: center;
+
+}
+.title{
+    font-weight: 350;
+    letter-spacing: .1px;
+    font-size: 39px;
+}
+.subtitle{
+    margin-bottom: 50px;
+    font-weight: 250;
+    letter-spacing: .1px;
+    line-height: 1.5em;
+}
+
+iframe{
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+iframe:hover{
+    transition: 0.5s;
+    width: 650px;
+    height: 400px;
+}
+.box2 #title2 {
+    font-weight: 350;
+    font-size: 25px;
+
+}
+.box2 #subtitle2 {
+font-size: 16px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: initial;
+
+}
+.box5 .hero{
+    width: 80%;
+}
+#wallpaper{
+    position: relative;
+    background-image: url('https://picalls.com/wp-content/uploads/2016/06/Millions-of-stars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+#wallpaper .box{
+width: 55%;
+}
+
+#wallpaper .opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+
+}
+
+#wallpaper h3{
+color: white;
+margin-top: 30px;
+text-align: center;}
+
+#wallpaper p {
+    color: white;
+    margin-top: -10px;
+
+    text-align: center;
+}
+#wallpaper .hero{
+    color: white;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.box .subtitle {
+    color: #6B6B6B;
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+}
+.levels{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+
+}
+.level{
+    background-color: white;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.level h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.level img{
+    margin-bottom: 60px;
+    margin-top: 20px}
+
+
+ul p{
+    text-align: initial;
+    margin-bottom: 40px;
+}

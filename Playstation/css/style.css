@@ -1,4 +1,3 @@
-@import "peira.css";
 html{
     font-size: 100%;
     font-family: Helvetica, arial, sans-serif;
@@ -343,4 +342,11 @@ footer a:hover{
 .a{
     color: aliceblue;
 }
+
+.row1 {
+    background: url(https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-hero-banner-desktop-01-en-30aug22?$2400px$) no-repeat;
+    transform: rotate(180deg);
+}
+
+
 
